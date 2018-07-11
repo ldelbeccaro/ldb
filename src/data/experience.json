@@ -1,0 +1,51 @@
+[
+  {
+    "id": "default",
+    "type": "Current",
+    "header": "Founder & CEO",
+    "subheader": "Stealth Startup",
+    "content": "I'm a software engineer currently working on a problem in the new hire onboarding space. Have any questions about onboarding or think your process could be improved? Contact me."
+  },
+  {
+    "id": "default",
+    "type": "Current",
+    "header": "Founder & CEO",
+    "subheader": "Stealth Company",
+    "content": "I'm a software engineer currently working on a problem in the new hire onboarding space. Have any questions about onboarding or think your process could be improved? Contact me."
+  },
+  {
+    "id": "frcswe",
+    "type": "Past Experience",
+    "header": "Software Engineer",
+    "subheader": "First Round Capital",
+    "content": "I'm a software engineer currently working on a problem in the new hire onboarding space. Have any questions about onboarding or think your process could be improved? Contact me."
+  },
+  {
+    "id": "mpswe",
+    "type": "Past Experience",
+    "header": "Software Engineer",
+    "subheader": "Mixpanel",
+    "content": "I'm a software engineer currently working on a problem in the new hire onboarding space. Have any questions about onboarding or think your process could be improved? Contact me."
+  },
+  {
+    "id": "bgc",
+    "type": "Volunteering",
+    "header": "Website Developer & Project Manager",
+    "subheader": "Boys & Girls Clubs of San Francisco",
+    "content": "I'm a software engineer currently working on a problem in the new hire onboarding space. Have any questions about onboarding or think your process could be improved? Contact me."
+  },
+  {
+    "id": "mpse",
+    "type": "Past Experience",
+    "header": "Sales Engineer",
+    "subheader": "Mixpanel",
+    "content": "I'm a software engineer currently working on a problem in the new hire onboarding space. Have any questions about onboarding or think your process could be improved? Contact me."
+  },
+  {
+    "id": "hcg",
+    "type": "Past Experience",
+    "header": "Analyst",
+    "subheader": "Huron Consulting Group",
+    "content": "I'm a software engineer currently working on a problem in the new hire onboarding space. Have any questions about onboarding or think your process could be improved? Contact me."
+  }
+]
