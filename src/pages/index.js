@@ -16,7 +16,9 @@ class IndexPage extends React.Component {
 
     this.onClickItem = this.onClickItem.bind(this)
     this.onClickClose = this.onClickClose.bind(this)
+  }
 
+  componentDidMount() {
     window.mixpanel.track('Page Viewed')
   }
 
@@ -24,14 +26,15 @@ class IndexPage extends React.Component {
     window.scrollTo(0, 0)
     this.setState({item: itemIdx, prevItem: 0})
 
-    const item = this.props.data.allMarkdownRemark.edges[itemIdx].node.frontmatter
-
-    window.mixpanel.track('Item Clicked', {
-      'Item Index': itemIdx,
-      'Item Title': item.title,
-      'Item Company': item.company,
-      'Item Type': item.type,
-    })
+    if (typeof window !== `undefined`) {
+      const item = this.props.data.allMarkdownRemark.edges[itemIdx].node.frontmatter
+      window.mixpanel.track('Item Clicked', {
+        'Item Index': itemIdx,
+        'Item Title': item.title,
+        'Item Company': item.company,
+        'Item Type': item.type,
+      })
+    }
   }
 
   onClickClose() {
