@@ -1,15 +1,16 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "laura-del-beccaro",
+  "description": "Laura Del Beccaro personal website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Laura Del Beccaro <lauradelbeccaro@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
+    "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-stylus": "^1.1.21",
     "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-json": "^1.0.20",
+    "gatsby-transformer-remark": "^1.7.44",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
@@ -27,6 +28,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/ldelbeccaro/ldb"
   }
 }

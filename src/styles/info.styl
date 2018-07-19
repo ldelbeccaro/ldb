@@ -1,0 +1,46 @@
+.info
+  .type
+    color #b8bcc2
+    font-weight 500
+    margin-bottom 18px
+    text-transform uppercase
+
+  .header
+    font-size 22px
+    margin-bottom 12px
+
+  .divider
+    background-color #5a6470
+    height 3px
+    margin-top 24px
+    width 72px
+
+  .content
+    color #5a6470
+    line-height 28px
+    margin 48px 0
+
+  .slide-up
+    animation slide-up .5s ease-out
+
+  .slide-down
+    animation slide-down .5s ease-out
+    transform translateY(3px)
+
+  @keyframes slide-up {
+    0% {
+      transform: translateY(3px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  @keyframes slide-down {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(3px);
+    }
+  }

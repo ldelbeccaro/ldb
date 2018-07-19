@@ -1,10 +1,13 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import SocialLinks from '../components/social-links'
+
+import '../styles/header.styl'
 
 const Header = () => (
   <div className='header'>
     <div className='logo'></div>
     <h1>Laura Del Beccaro</h1>
+    <SocialLinks />
   </div>
 )
 

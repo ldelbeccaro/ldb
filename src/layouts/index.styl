@@ -1,0 +1,31 @@
+body
+  align-items center
+  background-color white
+  color #142234
+  display flex
+  font-family 'Karla', sans-serif
+  justify-content center
+
+  .body-wrapper
+    display grid
+    min-height 592px
+    padding 48px 100px
+
+    @media(max-width: 970px)
+      padding 48px 24px
+
+    @media(max-width: 830px)
+      padding 48px 56px
+
+    @media(max-width: 600px)
+      padding 24px
+
+    @media(max-width: 400px)
+      padding 0
+
+    a
+      color #5583be
+      transition color 0.2s linear
+
+      &:hover
+        color #b8bcc2

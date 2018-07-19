@@ -2,7 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import './index.css'
+import './reset.styl'
+import './index.styl'
 
 const Layout = ({ children, data }) => (
   <div>
@@ -29,6 +30,7 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        description
       }
     }
   }
