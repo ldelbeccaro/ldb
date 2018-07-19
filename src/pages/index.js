@@ -17,7 +17,7 @@ class IndexPage extends React.Component {
     this.onClickItem = this.onClickItem.bind(this)
     this.onClickClose = this.onClickClose.bind(this)
 
-    mixpanel.track('Page Viewed')
+    window.mixpanel.track('Page Viewed')
   }
 
   onClickItem(itemIdx) {
@@ -26,7 +26,7 @@ class IndexPage extends React.Component {
 
     const item = this.props.data.allMarkdownRemark.edges[itemIdx].node.frontmatter
 
-    mixpanel.track('Item Clicked', {
+    window.mixpanel.track('Item Clicked', {
       'Item Index': itemIdx,
       'Item Title': item.title,
       'Item Company': item.company,

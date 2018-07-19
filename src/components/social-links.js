@@ -15,7 +15,7 @@ const SocialLinks = () => (
         key={link.url}
         target="_blank"
         href={link.url}
-        onClick={() => mixpanel.track('Link Clicked', {url: link.url})}
+        onClick={() => window.mixpanel.track('Link Clicked', {url: link.url})}
       >
         {link.svg}
       </a>
