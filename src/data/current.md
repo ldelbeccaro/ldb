@@ -8,5 +8,5 @@ logo: "./images/frc.png"
 ---
 
 I'm cofounder & CEO of <a href="http://honuhr.com">Honu</a> - a tool that helps founders and HR teams customize and automate their new hire onboarding processes.
-<br>
+<br><br>
 Are your team members and/or new hires performing a ton of tedious tasks when people start at your company? Have any questions about onboarding or think your process could be improved? <a href="mailto:sales@honuhr.com" target="_blank">Contact us.</a>
