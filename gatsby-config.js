@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Laura Del Beccaro',
-    description: 'Hi! I\'m a Software Engineer currently working on a problem in the new hire onboarding/HR space. Have any questions about onboarding or think your process could be improved? Contact me.',
+    description: 'Cofounder & CEO of Honu - a tool that helps founders and HR teams customize and automate their new hire onboarding processes',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
