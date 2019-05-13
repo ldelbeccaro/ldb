@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Laura Del Beccaro',
-    description: 'Cofounder & CEO of Honu - a tool that helps founders and HR teams customize and automate their new hire onboarding processes',
+    description:
+      'Cofounder & CEO of Sora - a new HR automation tool that that makes it easy to personalize employee onboarding, offboarding, and key moments in between.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -17,9 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `karla\:400,500`,
-        ],
+        fonts: [`karla\:400,500`],
       },
     },
   ],
